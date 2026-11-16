@@ -11,6 +11,9 @@ st.markdown("""This is a simple Streamlit app created by Tech Panda.
 if st.button("Click me!"):
  st.balloons()
 
+if st.button("Click me too!"):
+    st.snow() 
+
 name = st.text_input("Enter your name", key = "name")
 
 if name:
