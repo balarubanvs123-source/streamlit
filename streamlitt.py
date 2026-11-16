@@ -61,7 +61,7 @@ with tab1:
 with tab2:
     st.write("This is Tab 2")
 
-pages = [st.Page("home.py",title = "home")]        
+# pages = [st.Page("home.py",title = "home")]        
 
 # pg = st.sidebar.pages(pages)
 
